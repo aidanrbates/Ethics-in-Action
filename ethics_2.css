@@ -1,0 +1,175 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+#landing{
+    text-align: center;
+    padding-top: 2%;
+    background-color: #3F484F;
+    padding-bottom: 10%;
+    color: #C6D1CA;
+}
+
+#landing h1{
+    font-weight: 200;
+    font-size: 700%;
+    font-family: 'Playfair Display', serif;
+}
+
+#menu {
+    text-align: center;
+    color: #C6D1CA;
+    background-color: #3F484F;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 110%;
+    display: block;
+    padding-top: 5%;
+
+}
+
+#menu h2{
+    padding-bottom: 1%;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+#menu a, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #C6D1CA;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+#guestspeaker{
+
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #C6D1CA;
+    color: #3F484F;
+
+}
+
+#guestspeaker h1{
+    font-size: 300%;
+    font-weight:normal;
+}
+
+#guestspeaker img{
+    height: 160px;
+    width: auto;
+    margin: auto;
+    padding-top: 1%;
+}
+
+#guestinfo h2{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 200%;
+    font-weight: normal;
+}
+
+#guestinfo h3{
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 250%;
+    font-weight: normal;
+    
+}
+
+#guestinfo p{
+    margin: auto;
+    text-align: center;
+    word-wrap: break-word;
+    width: 35%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 2%;
+}
+
+#schedule{
+    padding-top: 20%;
+    background-color: #3F484F;
+}
+#schedule h1{
+    float: left;
+    font-size: 600%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+#schedule td{
+    font-size: 80%;
+    padding-right: 30px;
+}
+
+/* I separated the schedule into three separate tables because it seemed
+ * to be the simplest way to add spacing between each event. If there's a more efficient
+ * method let me know */
+
+#tab1{
+    float: right;
+    right: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-bottom: 20px;
+}
+
+#tab1 th{
+    text-align: left;
+    height: 35px;
+    color: #DF928E;
+    font-size: 130%;
+}
+
+.event {
+    font-size: 130%;
+}
+
+#tab1 tr{
+    width: 100px;
+}
+
+#tab2{
+    right: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    float: right;
+    padding-bottom: 20px;
+}
+
+#tab2 th{
+    text-align: left;
+    height: 35px;
+}
+
+#tab2 tr{
+    width: 100px;
+}
+
+#tab3{
+    right: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    float: right;
+}
+
+#tab3 th{
+    text-align: left;
+    height: 35px;
+}
+
+#tab3 tr{
+    width: 100px;
+}
+
+
+
+
